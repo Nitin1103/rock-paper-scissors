@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 html,
 body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .wrapper {
@@ -18,6 +21,7 @@ body {
 }
 
 .buttons {
+    margin-top: 5rem;
     display: flex;
     gap: 20px;
 }
